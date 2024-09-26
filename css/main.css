@@ -1,0 +1,25 @@
+@import url('https://fonts.googleapis.com/css2?family=Rubik:ital,wght@0,300..900;1,300..900&display=swap');
+
+@import url('header.css');
+@import url('promo.css');
+@import url('cards.css');
+@import url('posts.css');
+@import url('subpromo.css');
+@import url('footer.css');
+
+* {
+	box-sizing: border-box;
+}
+body {
+	font-size: 14px;
+	font-family: 'Rubik', sans-serif;
+	background: #373737;
+	color: #ffffff;
+	margin: 0px;
+}
+
+.container {
+	width: 100%;
+	max-width: 1440px;
+	margin: 0 auto;
+}
