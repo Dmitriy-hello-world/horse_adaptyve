@@ -2,12 +2,12 @@
 	display: flex;
 	justify-content: center;
 	gap: 20px;
-	padding: 50px;
+	padding: 50px 0;
 }
 
 .cards__container {
 	display: flex;
-	justify-content: space-around;
+	justify-content: space-between;
 }
 
 .cards__card {
@@ -43,6 +43,7 @@
 	color: #ffffff;
 	font-size: 18px;
 	margin-bottom: 10px;
+	font-weight: bold;
 }
 
 .cards__text {
@@ -85,10 +86,11 @@
 	color: black;
 	border: none;
 	padding: 10px;
-	font-size: 16px;
+	font-size: 24px;
 	cursor: pointer;
 	border-radius: 5px;
 	margin-top: 20px;
+	font-weight: bold;
 }
 
 .cards__play-btn:hover {

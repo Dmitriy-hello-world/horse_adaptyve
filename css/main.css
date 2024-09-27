@@ -20,6 +20,12 @@ body {
 
 .container {
 	width: 100%;
-	max-width: 1440px;
+	max-width: 1180px;
 	margin: 0 auto;
+}
+
+@media (max-width: 560px) {
+	.container {
+		max-width: 310px;
+	}
 }
