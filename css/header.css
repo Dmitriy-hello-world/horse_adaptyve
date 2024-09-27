@@ -97,6 +97,11 @@ nav ul li a:hover {
 		display: none;
 	}
 
+	.blur {
+		filter: blur(10px);
+		transition: filter 0.3s ease;
+	}
+
 	.header__nav_mobile_active {
 		position: absolute;
 		top: 100%;
